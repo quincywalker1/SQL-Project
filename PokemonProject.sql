@@ -836,7 +836,9 @@ SELECT COUNT(*),
         END as "letter_grade"
 FROM pokemon
 GROUP BY letter_grade;
-    
+/** For this portion I am going to demonstrate that I can also alter data. For this Example I chose Igglybuff as its type was changed from normal to fairy, normal in recent years**/
+UPDATE pokemon SET type_2 = NULL WHERE Number = 174;
+SELECT * FROM POKEMON WHERE Number = 174;
     
     
 
