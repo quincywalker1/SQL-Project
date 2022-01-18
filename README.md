@@ -1,2 +1,2 @@
 # SQL-Project
-Pokemon
+This project folder displays my familiarity with SQL.
